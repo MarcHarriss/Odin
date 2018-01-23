@@ -1,0 +1,26 @@
+.defaultSquares {
+  float: left;
+  border: 1px solid gray;
+  width: 3%;
+  height: 8%;
+}
+.blackSquares {
+  background-color: black;
+}
+.redSquares {
+  background-color: red;
+}
+.blueSquares {
+  background-color: blue;
+}
+
+
+#drawingBoard {
+  max-width: 100%;
+  max-height: 100%;
+}
+#boardHolder {
+  max-height: 200px;
+  height: 400px;
+  width: 100%;
+}

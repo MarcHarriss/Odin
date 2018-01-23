@@ -4,9 +4,32 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-
-
-
-
+  <div class="container">
+    <div class="row well text-center">
+      <div class="col-xs-6 col-xs-offset-3">
+        <h2> Etch-A-Sketch </h2>
+          <button id="reset" class="btn btn-warning btn-block">Reset</button>
+          <hr>
+          <button id="redPicker" class="btn-lg btn-danger">Red</button>
+          <button id="bluePicker" class="btn-lg btn-info">Blue</button>
+          <button id="blackPicker" class="btn-lg btn-dark">Black</button>
+      </div>
+    </div>
+  </div>
+  <div class="container well">
+    <div class="row text-center" id="boardHolder">
+      <div class="col-xs-8 col-xs-offset-2">
+        <div id="drawingBoard" class="container">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+      </div>
+    </div>
+  </div>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
