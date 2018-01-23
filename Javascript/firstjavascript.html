@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html charset"">
+<head>
+  <meta charset="utf-8">
+ <title>Function library example</title>
+
+</head>
+<body>
+
+  <p></p>
+  <script>
+    var string = 'the revolution will not be televised';
+    string;
+    var badstring = string;
+    badstring;
+    let a = 10
+    console.log(a)
+    console.log(9 * a)
+    let b = 7 * a
+    console.log(b)
+    console.log(23+97)
+    console.log((4 + 6 + 9) / 77)
+
+    let max = 57
+    let actual = max - 13
+    let percentage = actual / max
+    console.log(percentage)
+
+    var one = 'Hello, ';
+    var two = 'how are you?';
+    var joined = one + two;
+    joined;
+
+
+
+        console.log('Front ' + 242);
+
+        let hour = 12;
+        let minute = 30;
+
+        if (hour == 12 && minute == 30) {
+          alert('The time is 12.30');
+        }
+
+        var myArray = ['I', 'love', 'chocolate', 'frogs'];
+        var madeAString = myArray.join(' ');
+        console.log(madeAString);
+        // the join() function takes an array, joins
+        // all the array items together into a single
+        // string, and returns this new string
+
+        var Sex = ['I', 'love', 'sex'];
+        var realSex = Sex.join('');
+        console.log(realSex);
+
+        function squared(num) {
+          return num * num;
+        }
+
+        function cubed(num) {
+          return num * num * num;
+        }
+
+        function factorial(num) {
+          var x = num;
+          while (x > 1) {
+            num *= x-1;
+            x--;
+          }
+          return num;
+        }
+
+        console.log(squared(2));
+        console.log(cubed(2));
+        console.log(factorial(23));
+        console.log('last exercises');
+        console.log(add7(2));
+        console.log(multiply(23, 2));
+        console.log(capitalize("CraZY"));
+
+function add7(num) {
+  return num + 7;
+}
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+function capitalize(string) {
+   return string[0].toUpperCase() + string.slice(1);
+}
+
+
+        </script>
+
+
+</body>
+</html>
