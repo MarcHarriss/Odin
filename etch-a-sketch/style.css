@@ -1,8 +1,8 @@
 .defaultSquares {
   float: left;
-  border: 1px solid gray;
   width: 3%;
   height: 8%;
+  display: block;
 }
 .blackSquares {
   background-color: black;
@@ -16,11 +16,9 @@
 
 
 #drawingBoard {
-  max-width: 100%;
-  max-height: 100%;
-}
-#boardHolder {
-  max-height: 200px;
-  height: 400px;
   width: 100%;
+  height: 100%;
+  display: block;
+    max-height: 200px;
+    height: 400px;
 }
